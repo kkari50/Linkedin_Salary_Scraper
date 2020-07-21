@@ -1,0 +1,831 @@
+23:20:36,776 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62881/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+23:20:36,776 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:62881
+23:20:39,314 urllib3.connectionpool DEBUG http://127.0.0.1:62881 "POST /session HTTP/1.1" 200 715
+23:20:39,314 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:39,314 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62881/session/aad62e4733600ca0d23cc17b3f184ef3/url {"url": "https://www.linkedin.com/"}
+23:20:39,862 urllib3.connectionpool DEBUG http://127.0.0.1:62881 "POST /session/aad62e4733600ca0d23cc17b3f184ef3/url HTTP/1.1" 200 14
+23:20:39,862 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:39,862 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:62881/session/aad62e4733600ca0d23cc17b3f184ef3/window {}
+23:20:39,981 urllib3.connectionpool DEBUG http://127.0.0.1:62881 "DELETE /session/aad62e4733600ca0d23cc17b3f184ef3/window HTTP/1.1" 200 12
+23:20:39,981 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:40,531 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+23:20:40,532 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:62910
+23:20:43,46 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session HTTP/1.1" 200 717
+23:20:43,46 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:43,47 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/url {"url": "https://www.linkedin.com/"}
+23:20:43,566 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/url HTTP/1.1" 200 14
+23:20:43,567 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:43,567 root INFO Successfully loaded Linkedin Website.
+23:20:43,567 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element {"using": "xpath", "value": "/html/body/nav/a[3]"}
+23:20:43,606 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element HTTP/1.1" 200 88
+23:20:43,606 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:43,606 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/c815f3ca-ac76-45e6-be92-18e68b1c115a/click {"id": "c815f3ca-ac76-45e6-be92-18e68b1c115a"}
+23:20:43,937 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/c815f3ca-ac76-45e6-be92-18e68b1c115a/click HTTP/1.1" 200 14
+23:20:43,937 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:47,938 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element {"using": "css selector", "value": "[id=\"username\"]"}
+23:20:47,948 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element HTTP/1.1" 200 88
+23:20:47,948 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:47,948 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element {"using": "css selector", "value": "[id=\"password\"]"}
+23:20:47,965 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element HTTP/1.1" 200 88
+23:20:47,966 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:47,966 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/df20b5e7-572b-418e-9d42-671ddd3548c2/click {"id": "df20b5e7-572b-418e-9d42-671ddd3548c2"}
+23:20:48,5 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/df20b5e7-572b-418e-9d42-671ddd3548c2/click HTTP/1.1" 200 14
+23:20:48,6 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:48,6 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/df20b5e7-572b-418e-9d42-671ddd3548c2/value {"text": "\ue009a", "value": ["\ue009", "a"], "id": "df20b5e7-572b-418e-9d42-671ddd3548c2"}
+23:20:48,24 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/df20b5e7-572b-418e-9d42-671ddd3548c2/value HTTP/1.1" 200 14
+23:20:48,24 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:48,25 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/df20b5e7-572b-418e-9d42-671ddd3548c2/value {"text": "krishkari50@gmail.com", "value": ["k", "r", "i", "s", "h", "k", "a", "r", "i", "5", "0", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "df20b5e7-572b-418e-9d42-671ddd3548c2"}
+23:20:48,52 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/df20b5e7-572b-418e-9d42-671ddd3548c2/value HTTP/1.1" 200 14
+23:20:48,53 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:48,53 root INFO Login Username Entered.
+23:20:48,53 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/a469b7a5-ea85-47a1-93fd-1e7ef45324ec/click {"id": "a469b7a5-ea85-47a1-93fd-1e7ef45324ec"}
+23:20:48,82 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/a469b7a5-ea85-47a1-93fd-1e7ef45324ec/click HTTP/1.1" 200 14
+23:20:48,82 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:48,82 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/a469b7a5-ea85-47a1-93fd-1e7ef45324ec/value {"text": "\ue009a", "value": ["\ue009", "a"], "id": "a469b7a5-ea85-47a1-93fd-1e7ef45324ec"}
+23:20:48,97 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/a469b7a5-ea85-47a1-93fd-1e7ef45324ec/value HTTP/1.1" 200 14
+23:20:48,97 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:48,97 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/a469b7a5-ea85-47a1-93fd-1e7ef45324ec/value {"text": "harsha003", "value": ["h", "a", "r", "s", "h", "a", "0", "0", "3"], "id": "a469b7a5-ea85-47a1-93fd-1e7ef45324ec"}
+23:20:48,115 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/a469b7a5-ea85-47a1-93fd-1e7ef45324ec/value HTTP/1.1" 200 14
+23:20:48,115 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:48,115 root INFO Login Password Entered.
+23:20:48,115 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element {"using": "css selector", "value": ".login__form_action_container"}
+23:20:48,122 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element HTTP/1.1" 200 88
+23:20:48,123 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:48,123 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/ac201318-dab8-4bd2-9b7c-f48bfa58f4cf/click {"id": "ac201318-dab8-4bd2-9b7c-f48bfa58f4cf"}
+23:20:51,619 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element/ac201318-dab8-4bd2-9b7c-f48bfa58f4cf/click HTTP/1.1" 200 14
+23:20:51,620 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:51,620 root INFO Submitted Login information to Linkedin Server.
+23:20:51,620 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:62910/session/ad5bfcf0dafedc42eebbdb6cdcde6696/element {"using": "css selector", "value": "body"}
+23:20:51,635 urllib3.connectionpool DEBUG http://127.0.0.1:62910 "POST /session/ad5bfcf0dafedc42eebbdb6cdcde6696/element HTTP/1.1" 200 88
+23:20:51,635 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+23:20:51,635 root INFO Login Successful.
+23:54:33,116 root INFO ---------------Started Execution------------------
+23:54:36,788 root INFO Successfully loaded Linkedin Website.
+23:54:42,827 root INFO Login Username Entered.
+23:54:42,914 root INFO Login Password Entered.
+23:54:46,802 root INFO Submitted Login information to Linkedin Server.
+23:54:46,821 root INFO Login Successful.
+23:54:53,261 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+23:54:53,261 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+23:54:53,272 root INFO Salary Search parameters Entering Failed due to: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ember1012"]/div/input"}
+  (Session info: chrome=84.0.4147.89)
+
+23:54:54,331 root INFO Web page successfully loaded
+23:54:54,333 root INFO Unable to click "See results by company element due to:": Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+
+23:56:57,911 root INFO ---------------Started Execution------------------
+23:57:01,493 root INFO Successfully loaded Linkedin Website.
+23:57:04,937 root INFO Login Username Entered.
+23:57:05,1 root INFO Login Password Entered.
+23:57:08,387 root INFO Submitted Login information to Linkedin Server.
+23:57:08,395 root INFO Login Successful.
+23:57:19,793 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+23:57:19,793 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+23:57:19,817 root INFO Salary Search parameters Entering Failed due to: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ember1012"]/div/input"}
+  (Session info: chrome=84.0.4147.89)
+
+23:57:23,876 root INFO Web page successfully loaded
+23:57:23,877 root INFO Unable to click "See results by company element due to:": Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+
+23:58:30,339 root INFO ---------------Started Execution------------------
+23:58:33,917 root INFO Successfully loaded Linkedin Website.
+23:58:37,286 root INFO Login Username Entered.
+23:58:37,352 root INFO Login Password Entered.
+23:58:41,93 root INFO Submitted Login information to Linkedin Server.
+23:58:41,128 root INFO Login Successful.
+23:59:41,770 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+23:59:47,160 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+23:59:47,187 root INFO Salary Search parameters Entering Failed due to: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ember1012"]/div/input"}
+  (Session info: chrome=84.0.4147.89)
+
+00:00:38,419 root INFO Web page successfully loaded
+00:00:38,425 root INFO Unable to click "See results by company element due to:": Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+
+00:19:40,482 root INFO ---------------Started Execution------------------
+00:19:44,130 root INFO Successfully loaded Linkedin Website.
+00:19:47,885 root INFO Login Username Entered.
+00:19:47,949 root INFO Login Password Entered.
+00:19:52,63 root INFO Submitted Login information to Linkedin Server.
+00:19:52,84 root INFO Login Successful.
+00:20:01,564 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+00:20:01,564 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+00:20:01,708 root INFO Business Intelligence Analyst entered
+00:20:01,808 root INFO San Francisco Bay Area entered
+00:20:01,856 root INFO Salary Search parameters Entering Failed due to: module 'logging' has no attribute 'nfo'
+00:20:05,921 root INFO Web page successfully loaded
+00:20:05,925 root INFO Unable to click "See results by company element due to:": Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.89)
+
+00:21:48,946 root INFO ---------------Started Execution------------------
+00:21:52,519 root INFO Successfully loaded Linkedin Website.
+00:21:56,953 root INFO Login Username Entered.
+00:21:57,9 root INFO Login Password Entered.
+00:22:00,884 root INFO Submitted Login information to Linkedin Server.
+00:22:00,894 root INFO Login Successful.
+00:22:12,341 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+00:22:12,341 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+00:22:12,491 root INFO Business Intelligence Analyst entered
+00:22:12,587 root INFO San Francisco Bay Area entered
+00:22:12,636 root INFO Submit button clicked.
+00:22:15,637 root INFO Web page successfully loaded
+00:22:15,782 root INFO Search Results by company selected
+00:22:19,228 root INFO Page 0 Completed. List Length: 21.
+00:22:24,708 root INFO Page 1 Completed. List Length: 41.
+00:22:29,193 root INFO Page 2 Completed. List Length: 61.
+00:22:33,731 root INFO Page 3 Completed. List Length: 81.
+00:22:40,306 root INFO Page 4 Completed. List Length: 101.
+00:22:44,363 root INFO Total Scraped items: 100
+00:33:49,21 root INFO ---------------Started Execution------------------
+00:33:52,810 root INFO Successfully loaded Linkedin Website.
+00:33:57,220 root INFO Login Username Entered.
+00:33:57,282 root INFO Login Password Entered.
+00:34:01,118 root INFO Submitted Login information to Linkedin Server.
+00:34:01,135 root INFO Login Successful.
+00:34:11,779 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+00:34:11,779 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+00:34:11,975 root INFO Business Intelligence Analyst entered
+00:34:12,76 root INFO San Francisco Bay Area entered
+00:34:12,123 root INFO Submit button clicked.
+00:34:14,124 root INFO Web page successfully loaded
+00:34:14,280 root INFO Search Results by company selected
+00:34:19,716 root INFO Page 0 Completed. List Length: 21.
+00:34:25,227 root INFO Page 1 Completed. List Length: 41.
+00:34:29,717 root INFO Page 2 Completed. List Length: 61.
+00:34:34,255 root INFO Page 3 Completed. List Length: 81.
+00:34:38,821 root INFO Page 4 Completed. List Length: 101.
+00:34:42,863 root INFO Total Scraped items: 100
+00:40:00,592 root INFO ---------------Started Execution------------------
+00:40:04,195 root INFO Successfully loaded Linkedin Website.
+00:40:07,583 root INFO Login Username Entered.
+00:40:07,643 root INFO Login Password Entered.
+00:40:11,202 root INFO Submitted Login information to Linkedin Server.
+00:40:11,243 root INFO Login Successful.
+00:40:21,760 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+00:40:21,760 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+00:40:21,904 root INFO Business Intelligence Analyst entered
+00:40:22,12 root INFO San Francisco Bay Area entered
+00:40:22,57 root INFO Submit button clicked.
+00:40:26,57 root INFO Web page successfully loaded
+00:40:26,232 root INFO Search Results by company selected
+00:40:32,662 root INFO Page 0 Completed. List Length: 21.
+00:40:38,148 root INFO Page 1 Completed. List Length: 41.
+00:40:44,647 root INFO Page 2 Completed. List Length: 61.
+00:40:50,180 root INFO Page 3 Completed. List Length: 81.
+00:40:55,8 root INFO Page 4 Completed. List Length: 101.
+00:40:59,81 root INFO Total Scraped items: 100
+00:49:13,774 root INFO ---------------Started Execution------------------
+00:49:17,476 root INFO Successfully loaded Linkedin Website.
+00:49:23,265 root INFO Login Username Entered.
+00:49:23,325 root INFO Login Password Entered.
+00:49:26,790 root INFO Submitted Login information to Linkedin Server.
+00:49:26,812 root INFO Login Successful.
+00:49:35,272 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+00:49:35,272 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+00:49:35,445 root INFO Business Intelligence Analyst entered
+00:49:35,540 root INFO San Francisco Bay Area entered
+00:49:35,589 root INFO Submit button clicked.
+00:49:37,589 root INFO Web page successfully loaded
+00:49:37,735 root INFO Search Results by company selected
+00:49:44,164 root INFO Page 0 Completed. List Length: 20.
+00:49:49,656 root INFO Page 1 Completed. List Length: 40.
+00:49:54,723 root INFO Total Scraped items: 39
+00:50:32,413 root INFO ---------------Started Execution------------------
+00:50:35,973 root INFO Successfully loaded Linkedin Website.
+00:50:40,426 root INFO Login Username Entered.
+00:50:40,508 root INFO Login Password Entered.
+00:50:43,924 root INFO Submitted Login information to Linkedin Server.
+00:50:43,951 root INFO Login Successful.
+00:50:52,372 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+00:50:52,372 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+00:50:52,519 root INFO Business Intelligence Analyst entered
+00:50:52,619 root INFO San Francisco Bay Area entered
+00:50:52,666 root INFO Submit button clicked.
+00:50:55,667 root INFO Web page successfully loaded
+00:50:55,809 root INFO Search Results by company selected
+00:51:01,240 root INFO Page 0 Completed. List Length: 20.
+00:51:06,695 root INFO Page 1 Completed. List Length: 40.
+00:51:10,734 root INFO Total Scraped items: 39
+00:52:20,94 root INFO ---------------Started Execution------------------
+00:52:23,706 root INFO Successfully loaded Linkedin Website.
+00:52:29,127 root INFO Login Username Entered.
+00:52:29,209 root INFO Login Password Entered.
+00:52:29,768 root INFO Submitted Login information to Linkedin Server.
+00:52:30,429 root INFO Login Successful.
+00:52:41,837 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+00:52:41,837 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+00:52:42,3 root INFO Business Intelligence Analyst entered
+00:52:42,105 root INFO San Francisco Bay Area entered
+00:52:42,152 root INFO Submit button clicked.
+00:52:44,153 root INFO Web page successfully loaded
+00:52:44,305 root INFO Search Results by company selected
+00:52:47,671 root INFO Page 0 Completed. List Length: 20.
+00:52:52,134 root INFO Page 1 Completed. List Length: 40.
+00:52:56,167 root INFO Total Scraped items: 39
+00:53:32,197 root INFO ---------------Started Execution------------------
+00:53:35,824 root INFO Successfully loaded Linkedin Website.
+00:53:41,217 root INFO Login Username Entered.
+00:53:41,302 root INFO Login Password Entered.
+00:53:41,863 root INFO Submitted Login information to Linkedin Server.
+00:53:42,413 root INFO Login Successful.
+00:53:50,928 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+00:53:50,929 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+00:53:51,79 root INFO Business Intelligence Analyst entered
+00:53:51,190 root INFO San Francisco Bay Area entered
+00:53:51,238 root INFO Submit button clicked.
+00:53:53,239 root INFO Web page successfully loaded
+00:53:53,391 root INFO Search Results by company selected
+00:53:59,816 root INFO Page 0 Completed. List Length: 20.
+00:54:04,289 root INFO Page 1 Completed. List Length: 40.
+00:54:08,322 root INFO Total Scraped items: 39
+00:54:08,387 root INFO ---------------Finished Execution------------------
+00:59:42,381 root INFO ---------------Started Execution------------------
+00:59:45,984 root INFO Successfully loaded Linkedin Website.
+00:59:51,374 root INFO Login Username Entered.
+00:59:51,448 root INFO Login Password Entered.
+00:59:52,26 root INFO Submitted Login information to Linkedin Server.
+00:59:52,677 root INFO Login Successful.
+01:00:03,161 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+01:00:03,161 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+01:00:03,316 root INFO Business Intelligence Analyst entered
+01:00:03,416 root INFO San Francisco Bay Area entered
+01:00:03,476 root INFO Submit button clicked.
+01:00:06,477 root INFO Web page successfully loaded
+01:00:06,628 root INFO Search Results by company selected
+01:00:13,116 root INFO Page 0 Completed. List Length: 20.
+01:00:19,609 root INFO Page 1 Completed. List Length: 40.
+01:00:24,669 root INFO Total Scraped items: 40
+01:00:24,738 root INFO ---------------Finished Execution------------------
+01:03:27,354 root INFO ---------------Started Execution------------------
+01:03:30,916 root INFO Successfully loaded Linkedin Website.
+01:03:36,553 root INFO Login Username Entered.
+01:03:36,640 root INFO Login Password Entered.
+01:03:37,174 root INFO Submitted Login information to Linkedin Server.
+01:03:37,969 root INFO Login Successful.
+01:03:49,388 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+01:03:49,388 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+01:03:49,546 root INFO Business Intelligence Analyst entered
+01:03:49,653 root INFO San Francisco Bay Area entered
+01:03:49,706 root INFO Submit button clicked.
+01:03:52,707 root INFO Web page successfully loaded
+01:03:52,838 root INFO Search Results by company selected
+01:03:58,287 root INFO Page 0 Completed. List Length: 20.
+01:04:04,782 root INFO Page 1 Completed. List Length: 40.
+01:04:10,296 root INFO Page 2 Completed. List Length: 60.
+01:04:15,916 root INFO Page 3 Completed. List Length: 80.
+01:04:22,495 root INFO Page 4 Completed. List Length: 100.
+01:04:29,74 root INFO Page 5 Completed. List Length: 120.
+01:04:35,685 root INFO Page 6 Completed. List Length: 140.
+01:04:41,386 root INFO Page 7 Completed. List Length: 160.
+01:04:47,299 root INFO Page 8 Completed. List Length: 180.
+01:04:52,255 root INFO Page 9 Completed. List Length: 200.
+01:04:57,240 root INFO Page 10 Completed. List Length: 220.
+01:05:04,96 root INFO Page 11 Completed. List Length: 240.
+01:05:09,55 root INFO Page 12 Completed. List Length: 260.
+01:05:13,862 root INFO Page 13 Completed. List Length: 280.
+01:05:19,513 root INFO Page 14 Completed. List Length: 300.
+01:05:25,158 root INFO Page 15 Completed. List Length: 320.
+01:05:31,880 root INFO Page 16 Completed. List Length: 340.
+01:05:38,535 root INFO Page 17 Completed. List Length: 360.
+01:05:45,43 root INFO Page 18 Completed. List Length: 380.
+01:05:51,588 root INFO Page 19 Completed. List Length: 400.
+01:05:58,82 root INFO Page 20 Completed. List Length: 420.
+01:06:04,615 root INFO Page 21 Completed. List Length: 440.
+01:06:10,129 root INFO Page 22 Completed. List Length: 460.
+01:06:17,42 root INFO Page 23 Completed. List Length: 480.
+01:06:23,566 root INFO Page 24 Completed. List Length: 500.
+01:06:29,169 root INFO Page 25 Completed. List Length: 520.
+01:06:35,750 root INFO Page 26 Completed. List Length: 540.
+01:06:42,383 root INFO Page 27 Completed. List Length: 560.
+01:06:48,13 root INFO Page 28 Completed. List Length: 580.
+01:06:53,711 root INFO Page 29 Completed. List Length: 600.
+01:07:00,380 root INFO Page 30 Completed. List Length: 620.
+01:07:07,66 root INFO Page 31 Completed. List Length: 640.
+01:07:11,578 root INFO Page 32 Completed. List Length: 660.
+01:07:17,217 root INFO Page 33 Completed. List Length: 680.
+01:07:23,743 root INFO Page 34 Completed. List Length: 700.
+01:07:30,287 root INFO Page 35 Completed. List Length: 720.
+01:07:36,793 root INFO Page 36 Completed. List Length: 740.
+01:07:43,294 root INFO Page 37 Completed. List Length: 760.
+01:07:47,796 root INFO Page 38 Completed. List Length: 780.
+01:07:54,337 root INFO Page 39 Completed. List Length: 800.
+01:07:58,829 root INFO Page 40 Completed. List Length: 820.
+01:08:03,314 root INFO Page 41 Completed. List Length: 840.
+01:08:07,796 root INFO Page 42 Completed. List Length: 860.
+01:08:13,315 root INFO Page 43 Completed. List Length: 880.
+01:08:18,907 root INFO Page 44 Completed. List Length: 900.
+01:08:24,508 root INFO Page 45 Completed. List Length: 920.
+01:08:30,155 root INFO Page 46 Completed. List Length: 940.
+01:08:34,768 root INFO Page 47 Completed. List Length: 960.
+01:08:39,407 root INFO Page 48 Completed. List Length: 980.
+01:08:45,8 root INFO Page 49 Completed. List Length: 1000.
+01:08:50,373 root INFO Page 50 Completed. List Length: 1020.
+01:08:54,826 root INFO Page 51 Completed. List Length: 1040.
+01:09:00,333 root INFO Page 52 Completed. List Length: 1060.
+01:09:04,882 root INFO Page 53 Completed. List Length: 1080.
+01:09:11,418 root INFO Page 54 Completed. List Length: 1100.
+01:09:15,931 root INFO Page 55 Completed. List Length: 1120.
+01:09:20,507 root INFO Page 56 Completed. List Length: 1140.
+01:09:27,74 root INFO Page 57 Completed. List Length: 1160.
+01:09:31,616 root INFO Page 58 Completed. List Length: 1180.
+01:09:36,185 root INFO Page 59 Completed. List Length: 1200.
+01:09:42,703 root INFO Page 60 Completed. List Length: 1220.
+01:09:47,216 root INFO Page 61 Completed. List Length: 1240.
+01:09:51,761 root INFO Page 62 Completed. List Length: 1260.
+01:09:58,342 root INFO Page 63 Completed. List Length: 1280.
+01:10:02,870 root INFO Page 64 Completed. List Length: 1300.
+01:10:07,417 root INFO Page 65 Completed. List Length: 1320.
+01:10:13,963 root INFO Page 66 Completed. List Length: 1340.
+01:10:18,492 root INFO Page 67 Completed. List Length: 1360.
+01:10:23,35 root INFO Page 68 Completed. List Length: 1380.
+01:10:28,568 root INFO Page 69 Completed. List Length: 1400.
+01:10:35,113 root INFO Page 70 Completed. List Length: 1420.
+01:10:41,700 root INFO Page 71 Completed. List Length: 1440.
+01:10:47,232 root INFO Page 72 Completed. List Length: 1460.
+01:10:52,773 root INFO Page 73 Completed. List Length: 1480.
+01:10:59,382 root INFO Page 74 Completed. List Length: 1500.
+01:11:04,22 root INFO Page 75 Completed. List Length: 1520.
+01:11:08,653 root INFO Page 76 Completed. List Length: 1540.
+01:11:13,317 root INFO Page 77 Completed. List Length: 1560.
+01:11:19,968 root INFO Page 78 Completed. List Length: 1580.
+01:11:24,630 root INFO Page 79 Completed. List Length: 1600.
+01:11:30,287 root INFO Page 80 Completed. List Length: 1620.
+01:11:34,939 root INFO Page 81 Completed. List Length: 1640.
+01:11:41,659 root INFO Page 82 Completed. List Length: 1660.
+01:11:47,301 root INFO Page 83 Completed. List Length: 1680.
+01:11:54,43 root INFO Page 84 Completed. List Length: 1700.
+01:12:00,763 root INFO Page 85 Completed. List Length: 1720.
+01:12:06,349 root INFO Page 86 Completed. List Length: 1740.
+01:12:10,907 root INFO Page 87 Completed. List Length: 1760.
+01:12:15,444 root INFO Page 88 Completed. List Length: 1780.
+01:12:21,16 root INFO Page 89 Completed. List Length: 1800.
+01:12:25,621 root INFO Page 90 Completed. List Length: 1820.
+01:12:32,228 root INFO Page 91 Completed. List Length: 1840.
+01:12:38,810 root INFO Page 92 Completed. List Length: 1860.
+01:12:44,274 root INFO Page 93 Completed. List Length: 1880.
+01:12:49,786 root INFO Page 94 Completed. List Length: 1900.
+01:12:56,392 root INFO Page 95 Completed. List Length: 1920.
+01:13:01,921 root INFO Page 96 Completed. List Length: 1940.
+01:13:07,490 root INFO Page 97 Completed. List Length: 1960.
+01:13:14,26 root INFO Page 98 Completed. List Length: 1980.
+01:13:17,80 root INFO Total Scraped items: 1980
+01:13:17,464 root INFO ---------------Finished Execution------------------
+13:28:35,567 root INFO ---------------Started Execution------------------
+13:28:39,428 root INFO Successfully loaded Linkedin Website.
+13:28:43,921 root INFO Login Username Entered.
+13:28:44,20 root INFO Login Password Entered.
+13:28:48,536 root INFO Submitted Login information to Linkedin Server.
+13:28:48,553 root INFO Login Successful.
+13:28:59,198 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+13:28:59,198 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+13:28:59,381 root INFO Business Intelligence Analyst entered
+13:28:59,521 root INFO San Francisco Bay Area entered
+13:28:59,603 root INFO Submit button clicked.
+13:29:02,604 root INFO Web page successfully loaded
+13:29:02,795 root INFO Search Results by company selected
+13:29:08,554 root INFO Page 0 Completed. List Length: 20.
+13:29:13,585 root INFO Page 1 Completed. List Length: 40.
+15:55:17,954 root INFO ---------------Started Execution------------------
+15:55:21,625 root INFO Successfully loaded Linkedin Website.
+15:55:27,533 root INFO Login Username Entered.
+15:55:27,600 root INFO Login Password Entered.
+15:55:30,883 root INFO Submitted Login information to Linkedin Server.
+15:55:30,894 root INFO Login Successful.
+15:55:40,309 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+15:55:40,309 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+15:55:40,495 root INFO Business Intelligence Analyst entered
+15:55:40,608 root INFO San Francisco Bay Area entered
+15:55:40,670 root INFO Submit button clicked.
+15:55:42,671 root INFO Web page successfully loaded
+15:55:42,715 root INFO Search Results by company selected
+15:55:44,731 root INFO Total Scraped items: 0
+15:58:58,572 root INFO ---------------Started Execution------------------
+15:59:02,253 root INFO Successfully loaded Linkedin Website.
+15:59:07,93 root INFO Login Username Entered.
+15:59:07,175 root INFO Login Password Entered.
+15:59:10,857 root INFO Submitted Login information to Linkedin Server.
+15:59:10,866 root INFO Login Successful.
+15:59:21,407 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+15:59:21,407 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+15:59:21,567 root INFO Business Intelligence Analyst entered
+15:59:21,685 root INFO San Francisco Bay Area entered
+15:59:23,764 root INFO Submit button clicked.
+15:59:26,764 root INFO Web page successfully loaded
+15:59:26,925 root INFO Search Results by company selected
+15:59:30,507 root INFO Page 0 Completed. List Length: 20.
+15:59:35,100 root INFO Page 1 Completed. List Length: 40.
+15:59:40,735 root INFO Page 2 Completed. List Length: 60.
+15:59:47,387 root INFO Page 3 Completed. List Length: 80.
+15:59:53,4 root INFO Page 4 Completed. List Length: 100.
+15:59:58,609 root INFO Page 5 Completed. List Length: 120.
+16:00:03,271 root INFO Page 6 Completed. List Length: 140.
+16:00:09,0 root INFO Page 7 Completed. List Length: 160.
+16:00:14,689 root INFO Page 8 Completed. List Length: 180.
+16:00:21,467 root INFO Page 9 Completed. List Length: 200.
+16:00:28,133 root INFO Page 10 Completed. List Length: 220.
+16:00:32,684 root INFO Page 11 Completed. List Length: 240.
+16:00:39,297 root INFO Page 12 Completed. List Length: 260.
+16:00:44,917 root INFO Page 13 Completed. List Length: 280.
+16:00:50,565 root INFO Page 14 Completed. List Length: 300.
+16:00:57,238 root INFO Page 15 Completed. List Length: 320.
+16:01:03,911 root INFO Page 16 Completed. List Length: 340.
+16:01:10,559 root INFO Page 17 Completed. List Length: 360.
+16:01:16,168 root INFO Page 18 Completed. List Length: 380.
+16:01:20,792 root INFO Page 19 Completed. List Length: 400.
+16:01:27,431 root INFO Page 20 Completed. List Length: 420.
+16:01:32,124 root INFO Page 21 Completed. List Length: 440.
+16:01:37,779 root INFO Page 22 Completed. List Length: 460.
+16:01:43,507 root INFO Page 23 Completed. List Length: 480.
+16:01:50,318 root INFO Page 24 Completed. List Length: 500.
+16:01:54,961 root INFO Page 25 Completed. List Length: 520.
+16:02:01,614 root INFO Page 26 Completed. List Length: 540.
+16:02:07,470 root INFO Page 27 Completed. List Length: 560.
+16:02:12,177 root INFO Page 28 Completed. List Length: 580.
+16:02:45,232 root INFO ---------------Started Execution------------------
+16:02:49,37 root INFO Successfully loaded Linkedin Website.
+16:02:53,418 root INFO Login Username Entered.
+16:02:53,485 root INFO Login Password Entered.
+16:03:00,458 root INFO Submitted Login information to Linkedin Server.
+16:03:00,470 root INFO Login Successful.
+16:03:12,295 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:03:12,295 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:03:12,450 root INFO Business Intelligence Analyst entered
+16:03:12,559 root INFO San Francisco Bay Area entered
+16:03:15,642 root INFO Submit button clicked.
+16:03:17,642 root INFO Web page successfully loaded
+16:03:17,797 root INFO Search Results by company selected
+16:03:24,293 root INFO Page 0 Completed. List Length: 20.
+16:03:29,939 root INFO Page 1 Completed. List Length: 40.
+16:03:34,588 root INFO Page 2 Completed. List Length: 60.
+16:03:39,623 root INFO Total Scraped items: 60
+16:03:39,696 root INFO ---------------Finished Execution------------------
+16:04:33,960 root INFO ---------------Started Execution------------------
+16:04:37,555 root INFO Successfully loaded Linkedin Website.
+16:04:43,77 root INFO Login Username Entered.
+16:04:43,173 root INFO Login Password Entered.
+16:04:43,983 root INFO Submitted Login information to Linkedin Server.
+16:04:44,521 root INFO Login Successful.
+16:04:55,9 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:04:55,9 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:04:55,185 root INFO Business Intelligence Analyst entered
+16:04:55,286 root INFO San Francisco Bay Area entered
+16:04:58,370 root INFO Submit button clicked.
+16:05:01,370 root INFO Web page successfully loaded
+16:05:01,417 root INFO Search Results by company selected
+16:05:06,427 root INFO Total Scraped items: 0
+16:05:06,489 root INFO ---------------Finished Execution------------------
+16:05:42,361 root INFO ---------------Started Execution------------------
+16:05:45,970 root INFO Successfully loaded Linkedin Website.
+16:05:51,412 root INFO Login Username Entered.
+16:05:51,491 root INFO Login Password Entered.
+16:05:52,60 root INFO Submitted Login information to Linkedin Server.
+16:05:52,614 root INFO Login Successful.
+16:06:03,291 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:06:03,291 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:06:03,448 root INFO Business Intelligence Analyst entered
+16:06:03,557 root INFO San Francisco Bay Area entered
+16:06:07,642 root INFO Submit button clicked.
+16:06:11,643 root INFO Web page successfully loaded
+16:06:11,677 root INFO Search Results by company selected
+16:06:14,686 root INFO Total Scraped items: 0
+16:06:14,752 root INFO ---------------Finished Execution------------------
+16:08:13,334 root INFO ---------------Started Execution------------------
+16:08:16,908 root INFO Successfully loaded Linkedin Website.
+16:08:20,304 root INFO Login Username Entered.
+16:08:20,390 root INFO Login Password Entered.
+16:08:25,535 root INFO Submitted Login information to Linkedin Server.
+16:08:25,547 root INFO Login Successful.
+16:08:37,74 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:08:37,74 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:08:37,233 root INFO Business Intelligence Analyst entered
+16:08:37,339 root INFO San Francisco Bay Area entered
+16:08:41,425 root INFO Submit button clicked.
+16:08:44,426 root INFO Web page successfully loaded
+16:08:44,464 root INFO Search Results by company selected
+16:08:48,472 root INFO Total Scraped items: 0
+16:08:48,532 root INFO ---------------Finished Execution------------------
+16:09:35,526 root INFO ---------------Started Execution------------------
+16:09:39,170 root INFO Successfully loaded Linkedin Website.
+16:09:44,582 root INFO Login Username Entered.
+16:09:44,647 root INFO Login Password Entered.
+16:09:45,607 root INFO Submitted Login information to Linkedin Server.
+16:09:46,240 root INFO Login Successful.
+16:09:55,64 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:09:55,64 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:09:55,247 root INFO Business Intelligence Analyst entered
+16:09:55,369 root INFO San Francisco Bay Area entered
+16:09:58,448 root INFO Submit button clicked.
+16:10:02,448 root INFO Web page successfully loaded
+16:10:02,485 root INFO Search Results by company selected
+16:10:07,495 root INFO Total Scraped items: 0
+16:10:07,557 root INFO ---------------Finished Execution------------------
+16:12:08,419 root INFO ---------------Started Execution------------------
+16:12:12,49 root INFO Successfully loaded Linkedin Website.
+16:12:15,410 root INFO Login Username Entered.
+16:12:15,481 root INFO Login Password Entered.
+16:12:19,596 root INFO Submitted Login information to Linkedin Server.
+16:12:19,613 root INFO Login Successful.
+16:12:32,102 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:12:32,102 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:12:32,275 root INFO Business Intelligence Analyst entered
+16:12:32,386 root INFO San Francisco Bay Area entered
+16:12:35,470 root INFO Submit button clicked.
+16:12:38,472 root INFO Web page successfully loaded
+16:12:38,628 root INFO Search Results by company selected
+16:12:44,226 root INFO Page 0 Completed. List Length: 20.
+16:12:49,982 root INFO Page 1 Completed. List Length: 40.
+16:12:56,766 root INFO Page 2 Completed. List Length: 60.
+16:13:01,838 root INFO Total Scraped items: 60
+16:13:01,875 root INFO ---------------Finished Execution------------------
+16:17:01,414 root INFO ---------------Started Execution------------------
+16:17:05,244 root INFO Successfully loaded Linkedin Website.
+16:17:10,265 root INFO Login Username Entered.
+16:17:10,332 root INFO Login Password Entered.
+16:17:16,509 root INFO Submitted Login information to Linkedin Server.
+16:17:16,520 root INFO Login Successful.
+16:17:28,55 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:17:28,55 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:17:28,270 root INFO Business Intelligence Analyst entered
+16:17:28,386 root INFO San Francisco Bay Area entered
+16:17:30,469 root INFO Submit button clicked.
+16:17:32,469 root INFO Web page successfully loaded
+16:17:32,640 root INFO Search Results by company selected
+16:17:39,170 root INFO Page 0 Completed. List Length: 20.
+16:17:44,890 root INFO Page 1 Completed. List Length: 40.
+16:17:50,601 root INFO Page 2 Completed. List Length: 60.
+16:17:54,677 root INFO Total Scraped items: 60
+16:17:54,695 root INFO ---------------Finished Execution------------------
+16:19:29,24 root INFO ---------------Started Execution------------------
+16:19:32,707 root INFO Successfully loaded Linkedin Website.
+16:19:37,615 root INFO Login Username Entered.
+16:19:37,689 root INFO Login Password Entered.
+16:19:42,383 root INFO Submitted Login information to Linkedin Server.
+16:19:42,392 root INFO Login Successful.
+16:19:54,933 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:19:54,933 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:19:55,124 root INFO Business Intelligence Analyst entered
+16:19:55,244 root INFO San Francisco Bay Area entered
+16:19:57,330 root INFO Submit button clicked.
+16:20:01,331 root INFO Web page successfully loaded
+16:20:01,493 root INFO Search Results by company selected
+16:20:05,113 root INFO Page 0 Completed. List Length: 20.
+16:20:11,934 root INFO Page 1 Completed. List Length: 40.
+16:20:18,678 root INFO Page 2 Completed. List Length: 60.
+16:20:21,744 root INFO Total Scraped items: 60
+16:20:21,757 root INFO ---------------Finished Execution------------------
+16:20:21,916 root INFO Write to Database Successful.
+16:24:51,191 root INFO ---------------Started Execution------------------
+16:24:54,847 root INFO Successfully loaded Linkedin Website.
+16:24:59,731 root INFO Login Username Entered.
+16:24:59,795 root INFO Login Password Entered.
+16:25:03,626 root INFO Submitted Login information to Linkedin Server.
+16:25:03,641 root INFO Login Successful.
+16:25:14,150 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:25:14,150 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:25:14,326 root INFO Business Intelligence Analyst entered
+16:25:14,434 root INFO San Francisco Bay Area entered
+16:25:16,521 root INFO Submit button clicked.
+16:25:18,522 root INFO Web page successfully loaded
+16:25:18,670 root INFO Search Results by company selected
+16:25:22,276 root INFO Page 0 Completed. List Length: 20.
+16:25:28,942 root INFO Page 1 Completed. List Length: 40.
+16:25:35,671 root INFO Page 2 Completed. List Length: 60.
+16:25:40,738 root INFO Total Scraped items: 60
+16:25:40,744 root INFO ---------------Finished Execution------------------
+16:26:43,788 root INFO ---------------Started Execution------------------
+16:26:47,402 root INFO Successfully loaded Linkedin Website.
+16:26:53,408 root INFO Login Username Entered.
+16:26:53,471 root INFO Login Password Entered.
+16:26:53,997 root INFO Submitted Login information to Linkedin Server.
+16:26:54,592 root INFO Login Successful.
+16:27:04,80 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:27:04,80 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:27:04,247 root INFO Business Intelligence Analyst entered
+16:27:04,372 root INFO San Francisco Bay Area entered
+16:27:07,454 root INFO Submit button clicked.
+16:27:11,454 root INFO Web page successfully loaded
+16:27:11,605 root INFO Search Results by company selected
+16:27:17,132 root INFO Page 0 Completed. List Length: 20.
+16:27:22,911 root INFO Page 1 Completed. List Length: 40.
+16:27:25,974 root INFO Total Scraped items: 40
+16:27:25,978 root INFO ---------------Finished Execution------------------
+16:28:59,143 root INFO ---------------Started Execution------------------
+16:29:02,759 root INFO Successfully loaded Linkedin Website.
+16:29:07,581 root INFO Login Username Entered.
+16:29:07,652 root INFO Login Password Entered.
+16:29:11,687 root INFO Submitted Login information to Linkedin Server.
+16:29:11,696 root INFO Login Successful.
+16:29:23,146 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:29:23,146 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:29:23,300 root INFO Business Intelligence Analyst entered
+16:29:23,404 root INFO San Francisco Bay Area entered
+16:29:28,484 root INFO Submit button clicked.
+16:29:31,484 root INFO Web page successfully loaded
+16:29:31,639 root INFO Search Results by company selected
+16:29:38,156 root INFO Page 0 Completed. List Length: 20.
+16:29:41,239 root INFO Total Scraped items: 20
+16:29:41,243 root INFO ---------------Finished Execution------------------
+16:29:41,361 root INFO Write to Database Successful.
+16:40:02,491 root INFO ---------------Started Execution------------------
+16:40:06,170 root INFO Successfully loaded Linkedin Website.
+16:40:11,36 root INFO Login Username Entered.
+16:40:11,100 root INFO Login Password Entered.
+16:40:14,647 root INFO Submitted Login information to Linkedin Server.
+16:40:14,657 root INFO Login Successful.
+16:40:25,101 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:40:25,101 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:40:25,259 root INFO Business Intelligence Analyst entered
+16:40:25,367 root INFO San Francisco Bay Area entered
+16:40:30,448 root INFO Submit button clicked.
+16:40:33,449 root INFO Web page successfully loaded
+16:40:33,598 root INFO Search Results by company selected
+16:40:38,92 root INFO Page 0 Completed. List Length: 20.
+16:40:43,175 root INFO Total Scraped items: 20
+16:40:43,183 root INFO ---------------Finished Execution------------------
+16:40:43,311 root INFO Write to Database Successful.
+16:42:58,108 root INFO ---------------Started Execution------------------
+16:43:01,831 root INFO Successfully loaded Linkedin Website.
+16:43:07,273 root INFO Login Username Entered.
+16:43:07,363 root INFO Login Password Entered.
+16:43:08,235 root INFO Submitted Login information to Linkedin Server.
+16:43:08,779 root INFO Login Successful.
+16:43:19,253 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:43:19,253 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:43:19,419 root INFO Business Intelligence Analyst entered
+16:43:19,525 root INFO San Francisco Bay Area entered
+16:43:24,608 root INFO Submit button clicked.
+16:43:28,609 root INFO Web page successfully loaded
+16:43:28,766 root INFO Search Results by company selected
+16:43:33,303 root INFO Page 0 Completed. List Length: 20.
+16:43:36,395 root INFO Total Scraped items: 20
+16:43:36,398 root INFO ---------------Finished Execution------------------
+16:43:58,372 root INFO ---------------Started Execution------------------
+16:44:01,999 root INFO Successfully loaded Linkedin Website.
+16:44:05,480 root INFO Login Username Entered.
+16:44:05,549 root INFO Login Password Entered.
+16:44:10,260 root INFO Submitted Login information to Linkedin Server.
+16:44:10,272 root INFO Login Successful.
+16:44:19,770 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:44:19,770 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:44:19,931 root INFO Business Intelligence Analyst entered
+16:44:20,55 root INFO San Francisco Bay Area entered
+16:44:25,141 root INFO Submit button clicked.
+16:44:28,142 root INFO Web page successfully loaded
+16:44:28,301 root INFO Search Results by company selected
+16:44:34,785 root INFO Page 0 Completed. List Length: 20.
+16:44:37,879 root INFO Total Scraped items: 20
+16:44:37,882 root INFO ---------------Finished Execution------------------
+16:48:44,578 root INFO ---------------Started Execution------------------
+16:48:48,183 root INFO Successfully loaded Linkedin Website.
+16:48:53,242 root INFO Login Username Entered.
+16:48:53,304 root INFO Login Password Entered.
+16:48:57,683 root INFO Submitted Login information to Linkedin Server.
+16:48:57,693 root INFO Login Successful.
+16:49:09,177 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:49:09,177 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:49:09,335 root INFO Business Intelligence Analyst entered
+16:49:09,439 root INFO San Francisco Bay Area entered
+16:49:14,526 root INFO Submit button clicked.
+16:49:18,527 root INFO Web page successfully loaded
+16:49:18,683 root INFO Search Results by company selected
+16:49:22,176 root INFO Page 0 Completed. List Length: 20.
+16:49:25,245 root INFO Total Scraped items: 20
+16:49:25,249 root INFO ---------------Finished Execution------------------
+16:53:45,491 root INFO ---------------Started Execution------------------
+16:53:49,197 root INFO Successfully loaded Linkedin Website.
+16:53:54,696 root INFO Login Username Entered.
+16:53:54,771 root INFO Login Password Entered.
+16:53:58,351 root INFO Submitted Login information to Linkedin Server.
+16:53:58,393 root INFO Login Successful.
+16:54:08,889 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:54:08,889 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:54:09,53 root INFO Business Intelligence Analyst entered
+16:54:09,165 root INFO San Francisco Bay Area entered
+16:54:12,284 root INFO Submit button clicked.
+16:54:14,284 root INFO Web page successfully loaded
+16:54:14,444 root INFO Search Results by company selected
+16:54:18,20 root INFO Page 0 Completed. List Length: 20.
+16:54:22,126 root INFO Total Scraped items: 20
+16:54:22,129 root INFO ---------------Finished Execution------------------
+16:54:22,252 root INFO Write to Database Successful.
+16:55:40,437 root INFO ---------------Started Execution------------------
+16:55:44,43 root INFO Successfully loaded Linkedin Website.
+16:55:47,949 root INFO Login Username Entered.
+16:55:48,18 root INFO Login Password Entered.
+16:55:51,746 root INFO Submitted Login information to Linkedin Server.
+16:55:51,758 root INFO Login Successful.
+16:56:04,246 root INFO Navigated to https://www.linkedin.com/salary/ webpage successfully.
+16:56:04,246 root INFO Started entering Search parameters for Salaries: ('Business Intelligence Analyst', 'San Francisco Bay Area')
+16:56:04,414 root INFO Business Intelligence Analyst entered
+16:56:04,526 root INFO San Francisco Bay Area entered
+16:56:07,606 root INFO Submit button clicked.
+16:56:10,607 root INFO Web page successfully loaded
+16:56:10,768 root INFO Search Results by company selected
+16:56:16,323 root INFO Page 0 Completed. List Length: 20.
+16:56:20,987 root INFO Page 1 Completed. List Length: 40.
+16:56:26,737 root INFO Page 2 Completed. List Length: 60.
+16:56:32,434 root INFO Page 3 Completed. List Length: 80.
+16:56:38,154 root INFO Page 4 Completed. List Length: 100.
+16:56:43,977 root INFO Page 5 Completed. List Length: 120.
+16:56:48,772 root INFO Page 6 Completed. List Length: 140.
+16:56:55,606 root INFO Page 7 Completed. List Length: 160.
+16:57:00,353 root INFO Page 8 Completed. List Length: 180.
+16:57:06,95 root INFO Page 9 Completed. List Length: 200.
+16:57:10,793 root INFO Page 10 Completed. List Length: 220.
+16:57:16,509 root INFO Page 11 Completed. List Length: 240.
+16:57:22,246 root INFO Page 12 Completed. List Length: 260.
+16:57:28,47 root INFO Page 13 Completed. List Length: 280.
+16:57:33,810 root INFO Page 14 Completed. List Length: 300.
+16:57:38,555 root INFO Page 15 Completed. List Length: 320.
+16:57:43,347 root INFO Page 16 Completed. List Length: 340.
+16:57:48,128 root INFO Page 17 Completed. List Length: 360.
+16:57:53,924 root INFO Page 18 Completed. List Length: 380.
+16:58:00,771 root INFO Page 19 Completed. List Length: 400.
+16:58:06,589 root INFO Page 20 Completed. List Length: 420.
+16:58:11,447 root INFO Page 21 Completed. List Length: 440.
+16:58:16,251 root INFO Page 22 Completed. List Length: 460.
+16:58:22,104 root INFO Page 23 Completed. List Length: 480.
+16:58:26,864 root INFO Page 24 Completed. List Length: 500.
+16:58:31,642 root INFO Page 25 Completed. List Length: 520.
+16:58:36,423 root INFO Page 26 Completed. List Length: 540.
+16:58:41,234 root INFO Page 27 Completed. List Length: 560.
+16:58:46,998 root INFO Page 28 Completed. List Length: 580.
+16:58:52,784 root INFO Page 29 Completed. List Length: 600.
+16:58:58,591 root INFO Page 30 Completed. List Length: 620.
+16:59:04,412 root INFO Page 31 Completed. List Length: 640.
+16:59:10,166 root INFO Page 32 Completed. List Length: 660.
+16:59:14,951 root INFO Page 33 Completed. List Length: 680.
+16:59:20,717 root INFO Page 34 Completed. List Length: 700.
+16:59:27,493 root INFO Page 35 Completed. List Length: 720.
+16:59:33,260 root INFO Page 36 Completed. List Length: 740.
+16:59:38,734 root INFO Page 37 Completed. List Length: 760.
+16:59:45,670 root INFO Page 38 Completed. List Length: 780.
+16:59:51,306 root INFO Page 39 Completed. List Length: 800.
+16:59:58,555 root INFO Page 40 Completed. List Length: 820.
+17:00:03,818 root INFO Page 41 Completed. List Length: 840.
+17:00:10,57 root INFO Page 42 Completed. List Length: 860.
+17:00:16,296 root INFO Page 43 Completed. List Length: 880.
+17:00:23,547 root INFO Page 44 Completed. List Length: 900.
+17:00:28,738 root INFO Page 45 Completed. List Length: 920.
+17:00:33,910 root INFO Page 46 Completed. List Length: 940.
+17:00:40,186 root INFO Page 47 Completed. List Length: 960.
+17:00:45,364 root INFO Page 48 Completed. List Length: 980.
+17:00:51,620 root INFO Page 49 Completed. List Length: 1000.
+17:00:56,955 root INFO Page 50 Completed. List Length: 1020.
+17:01:03,392 root INFO Page 51 Completed. List Length: 1040.
+17:01:10,930 root INFO Page 52 Completed. List Length: 1060.
+17:01:16,163 root INFO Page 53 Completed. List Length: 1080.
+17:01:21,316 root INFO Page 54 Completed. List Length: 1100.
+17:01:27,447 root INFO Page 55 Completed. List Length: 1120.
+17:01:34,611 root INFO Page 56 Completed. List Length: 1140.
+17:01:40,808 root INFO Page 57 Completed. List Length: 1160.
+17:01:46,12 root INFO Page 58 Completed. List Length: 1180.
+17:01:52,285 root INFO Page 59 Completed. List Length: 1200.
+17:01:59,539 root INFO Page 60 Completed. List Length: 1220.
+17:02:04,849 root INFO Page 61 Completed. List Length: 1240.
+17:02:11,46 root INFO Page 62 Completed. List Length: 1260.
+17:02:17,203 root INFO Page 63 Completed. List Length: 1280.
+17:02:22,323 root INFO Page 64 Completed. List Length: 1300.
+17:02:29,491 root INFO Page 65 Completed. List Length: 1320.
+17:02:36,630 root INFO Page 66 Completed. List Length: 1340.
+17:02:42,653 root INFO Page 67 Completed. List Length: 1360.
+17:02:48,739 root INFO Page 68 Completed. List Length: 1380.
+17:02:53,883 root INFO Page 69 Completed. List Length: 1400.
+17:02:59,95 root INFO Page 70 Completed. List Length: 1420.
+17:03:06,343 root INFO Page 71 Completed. List Length: 1440.
+17:03:11,698 root INFO Page 72 Completed. List Length: 1460.
+17:03:19,302 root INFO Page 73 Completed. List Length: 1480.
+17:03:26,500 root INFO Page 74 Completed. List Length: 1500.
+17:03:31,530 root INFO Page 75 Completed. List Length: 1520.
+17:03:37,624 root INFO Page 76 Completed. List Length: 1540.
+17:03:44,741 root INFO Page 77 Completed. List Length: 1560.
+17:03:51,838 root INFO Page 78 Completed. List Length: 1580.
+17:03:56,958 root INFO Page 79 Completed. List Length: 1600.
+17:04:03,29 root INFO Page 80 Completed. List Length: 1620.
+17:04:10,171 root INFO Page 81 Completed. List Length: 1640.
+17:04:15,374 root INFO Page 82 Completed. List Length: 1660.
+17:04:22,583 root INFO Page 83 Completed. List Length: 1680.
+17:04:27,938 root INFO Page 84 Completed. List Length: 1700.
+17:04:33,228 root INFO Page 85 Completed. List Length: 1720.
+17:04:38,583 root INFO Page 86 Completed. List Length: 1740.
+17:04:43,968 root INFO Page 87 Completed. List Length: 1760.
+17:04:49,430 root INFO Page 88 Completed. List Length: 1780.
+17:04:56,876 root INFO Page 89 Completed. List Length: 1800.
+17:05:02,291 root INFO Page 90 Completed. List Length: 1820.
+17:05:07,731 root INFO Page 91 Completed. List Length: 1840.
+17:05:13,171 root INFO Page 92 Completed. List Length: 1860.
+17:05:19,713 root INFO Page 93 Completed. List Length: 1880.
+17:05:26,287 root INFO Page 94 Completed. List Length: 1900.
+17:05:32,989 root INFO Page 95 Completed. List Length: 1920.
+17:05:39,575 root INFO Page 96 Completed. List Length: 1940.
+17:05:46,166 root INFO Page 97 Completed. List Length: 1960.
+17:05:52,831 root INFO Page 98 Completed. List Length: 1980.
+17:05:57,900 root INFO Total Scraped items: 1980
+17:05:57,917 root INFO ---------------Finished Execution------------------
+17:05:59,62 root INFO Write to Database Successful.
