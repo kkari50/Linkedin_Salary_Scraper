@@ -1,6 +1,7 @@
 from navigator import *
 from database import *
 import pandas as pd
+from BingGeoCoding import *
 
 logging.info(f'---------------Started Execution------------------')
 
@@ -81,13 +82,36 @@ df = pd.DataFrame(comp_obj_list)
 df_2 = df.set_axis(col_headers, axis=1, inplace=False)
 print(df_2.head(5))
 print(df_2.columns)
-database_handler(db_instance_name, db_name, db_table_name, df_2)
+database_handler(db_instance_name, db_name, db_scraped_data_table_name, df_2)
 
 
 
 logging.info(f'Write to Database Successful.')
 
+#--------------------------------Geo Coding for fetched area datapoints
 
+location_tuple_list = get_location_data_from_db(db_scraped_data_table_name)
 
+loc_list = [] #----location list used for actual geocodeing----
+main_loc_dict = {}
 
+for ele in location_tuple_list:
+    loc_list.append(ele[0].replace("Greater", ""))
+    main_loc_dict[ele[0]] = ele[0].replace("Greater", "")
 
+final_output_dict={}
+for src_loc,loc in main_loc_dict.items():
+    output_data=get_location_data(loc,Bing_maps_API_key)
+    final_output_dict[src_loc]=output_data
+
+#--------------------------------Convert results into dataframe-----------
+
+output_loc_df = convert_loc_results_to_DataFrame(final_output_dict)
+
+#write to database:
+
+database_handler(db_instance_name, db_name, db_location_data_table_name, output_loc_df)
+
+print('location_data_write to database completed')
+
+logging.info(f'Write to Database Location Data Successful.')

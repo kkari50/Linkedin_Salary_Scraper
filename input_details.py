@@ -7,13 +7,15 @@ ln_password = ''
 ln_salary_url='https://www.linkedin.com/salary/'
 search_title='Business Intelligence Analyst'
 search_location = 'San Francisco Bay Area'
+Bing_maps_API_key=''
 #---------------------------------------------Database Credentials------------------------------------------------------
 
 db_instance_name='KRISHDELL'
 # db_name = 'Linkedin_Salaries'
 db_name = 'Linkedin_Salaries'
 
-db_table_name='scraped_data'
+db_scraped_data_table_name='scraped_data'
+db_location_data_table_name='location_data'
 db_uid ='KRISHDELL\krish'
 db_password=''
 db_AuthenticationMethod='Windows'
