@@ -72,3 +72,12 @@ def database_handler(db_instance_name, db_name, db_table_name, data):
 
     cursor.close()
     conn.close()
+
+
+def check_exisiting(cursor, comp_name,loc_name):
+    query = f"select count(*) from scraped_data where Title ='{comp_name}' and Location ='{loc_name}'"
+    res = cursor.execute(query)
+
+    val = res.fetchall()[0][0]
+
+    return val

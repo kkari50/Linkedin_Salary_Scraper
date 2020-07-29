@@ -5,8 +5,9 @@ import logging
 ln_username=''
 ln_password = ''
 ln_salary_url='https://www.linkedin.com/salary/'
-search_title='Business Intelligence Analyst'
-search_location = 'San Francisco Bay Area'
+search_title=['Data Analyst','Data Scientist','Data Engineer','Business Analyst']
+    #
+search_location = ['New York Area','Houston, Texas Area','San Francisco Bay Area']
 Bing_maps_API_key=''
 #---------------------------------------------Database Credentials------------------------------------------------------
 
@@ -16,6 +17,7 @@ db_name = 'Linkedin_Salaries'
 
 db_scraped_data_table_name='scraped_data'
 db_location_data_table_name='location_data'
+
 db_uid ='KRISHDELL\krish'
 db_password=''
 db_AuthenticationMethod='Windows'

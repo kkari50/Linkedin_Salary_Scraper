@@ -47,7 +47,7 @@ def get_location_data(location_name, api_key):
                 q_f_locality = result['locality']
             else:
                 q_f_locality = None
-            item_list = [result_index, data_2['q'], q_f_locality, q_f_address]
+            item_list = [result_index, data_dict['q'], q_f_locality, q_f_address]
             main_results_list.append(item_list)
     #             print(item_list, result)
 
@@ -96,6 +96,8 @@ def get_location_data(location_name, api_key):
         else:
             continue
 
+    if len(f_address_indices)==0:
+        return ''
     min_index_for_max_f_address_score = f_address_indices[0]
 
     index_to_use = min_index_for_max_f_address_score
@@ -141,9 +143,10 @@ def convert_loc_results_to_DataFrame(final_output_dict):
         df_dict['locality'].append(locality)
         df_dict['countryRegionIso2'].append(countryRegionIso2)
 
-        output_df = pd.DataFrame(df_dict)
 
-        return output_df
+    output_df = pd.DataFrame(df_dict)
+
+    return output_df
 
 
 
